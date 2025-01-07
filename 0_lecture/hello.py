@@ -70,3 +70,48 @@ print(a.replace("H", "J"))
 
 a = "Hello, World!"
 print(a.split(",")) # returns ['Hello', ' World!']
+
+
+a = "Hello"
+b = "World"
+c = a +" "+ b
+print(c)
+
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+print(bool("Hello"))
+print(bool(15))
+
+x = "Hello"
+y = 15
+
+print(bool(x))
+print(bool(y))
+
+class myclass():
+  def __len__(self):
+    return 0
+
+myobj = myclass()
+print(bool(myobj))
+
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+else:
+  print("i is no longer less than 6")
+
+  fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+
+  fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+    break
+  print(x)
