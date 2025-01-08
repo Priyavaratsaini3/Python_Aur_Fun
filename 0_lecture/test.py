@@ -18,4 +18,8 @@ class Solution:
                 result1 += word1[i]
             if i < len(word2):
                 result1 += word2[i]
-        return result
+        return result   
+        for x in range(6):
+            print(x)
+        else:
+            print("Finally finished!")
