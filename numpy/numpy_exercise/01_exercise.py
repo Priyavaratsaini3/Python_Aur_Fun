@@ -61,3 +61,37 @@ print("Array of Ones: \n", arr7)
 
 # Exercise 9: Array with a Range
 # Create an array of integers from 10 to 50 (inclusive).
+arr8 = []
+for i in range(10,51):
+    arr8.append(i)
+print("Array with a Range: ", np.array(arr8))
+
+# Exercise 10: Array with Evenly Spaced Numbers
+# Create an array of 5 evenly spaced numbers between 0 and 1.
+
+arr9 = np.linspace(0,1, num=5)
+print(arr9)
+
+# Exercise 11: Identity Matrix
+# Create a 4x4 identity matrix.
+
+arr10 = np.identity(4)
+print("Identity matrix 4X4 :\n",arr10)
+
+# Exercise 12: Random Numbers
+# Create a 3x3 array with random values between 0 and 1.
+
+arr11 = np.random.rand(3,3)
+print(arr11)
+
+# Exercise 13: Reshaping Arrays
+# Create a 1D array of numbers from 1 to 12.
+# Reshape it into a 3x4 array.
+
+arr12 = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+print(arr12)
+print(arr.ndim)
+x = arr12.reshape(3,4)
+
+print(x)
+print(x.ndim)
