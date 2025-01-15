@@ -66,7 +66,7 @@ for i in range(10,51):
     arr8.append(i)
 print("Array with a Range: ", np.array(arr8))
 
-# Exercise 10: Array with Evenly Spaced Numbers
+# Exercise 10: Array wit h Evenly Spaced Numbers
 # Create an array of 5 evenly spaced numbers between 0 and 1.
 
 arr9 = np.linspace(0,1, num=5)
