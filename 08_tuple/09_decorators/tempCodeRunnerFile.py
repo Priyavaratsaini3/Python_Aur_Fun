@@ -1,1 +1,1 @@
-greet("chai", greeting="hanji ")
+greet("chai", greeting="Hello, chai!")
