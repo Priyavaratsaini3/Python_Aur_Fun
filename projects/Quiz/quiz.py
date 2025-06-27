@@ -1,6 +1,5 @@
-import random
 ## Inputs 
-# questions 5 
+# questions 3
 # randomly choice 
 # 4 option 
 
