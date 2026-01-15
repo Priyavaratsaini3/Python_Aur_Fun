@@ -89,18 +89,36 @@
 # else:
 #     print("Odd")
 
-def main():
-    x = int(input("What's x ? :"))
+# def main():
+#     x = int(input("What's x ? :"))
 
-    if is_even(x):
-        print("Even")
-    else:
-        print("Odd")
+#     if is_even(x):
+#         print("Even")
+#     else:
+#         print("Odd")
 
-def is_even(n):
-    if n % 2 == 0:
-        return True
-    else:
-        return False
+# # def is_even(n):
+# #     if n % 2 == 0:
+# #         return True
+# #     else:
+# #         return False
 
-main()
+# def is_even(n):
+#     return n % 2 == 0
+
+# main()
+
+name = input("What's your Name? ")
+
+# if name == "Harry":
+#     print("Gryffindor")
+# elif name == "Hermione":
+#     print("Gryffindor")
+# elif name == "Ron":
+#     print("Gryffindor")
+if name == "Harry" or name == "Hermione" or name == "Ron":
+    print("Gryffindor")
+elif name == "Draco":
+    print("Slytherin")
+else:
+    print("Who?")
