@@ -108,7 +108,7 @@
 
 # main()
 
-name = input("What's your Name? ")
+name = input("What's your Name? :")
 
 # if name == "Harry":
 #     print("Gryffindor")
@@ -116,9 +116,21 @@ name = input("What's your Name? ")
 #     print("Gryffindor")
 # elif name == "Ron":
 #     print("Gryffindor")
-if name == "Harry" or name == "Hermione" or name == "Ron":
-    print("Gryffindor")
-elif name == "Draco":
-    print("Slytherin")
-else:
-    print("Who?")
+# if name == "Harry" or name == "Hermione" or name == "Ron":
+#     print("Gryffindor")
+# elif name == "Draco":
+#     print("Slytherin")
+# else:
+#     print("Who?")
+
+match name:
+    case "Harry" | "Hermione" | "Ron":
+        print("Gryffindor")
+    # case "Hermione":
+    #     print("Gryffindor")
+    # case "Ron":
+    #     print("Gryffindor")
+    case "Draco":
+        print("slytherin")
+    case _:
+        print("Who?")
