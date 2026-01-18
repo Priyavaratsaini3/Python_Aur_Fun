@@ -108,7 +108,7 @@
 
 # main()
 
-name = input("What's your Name? :")
+# name = input("What's your Name? :")
 
 # if name == "Harry":
 #     print("Gryffindor")
@@ -123,14 +123,33 @@ name = input("What's your Name? :")
 # else:
 #     print("Who?")
 
-match name:
-    case "Harry" | "Hermione" | "Ron":
-        print("Gryffindor")
-    # case "Hermione":
-    #     print("Gryffindor")
-    # case "Ron":
-    #     print("Gryffindor")
-    case "Draco":
-        print("slytherin")
-    case _:
-        print("Who?")
+# match name:
+#     case "Harry" | "Hermione" | "Ron":
+#         print("Gryffindor")
+#     # case "Hermione":
+#     #     print("Gryffindor")
+#     # case "Ron":
+#     #     print("Gryffindor")
+#     case "Draco":
+#         print("slytherin")
+#     case _:
+#         print("Who?")
+
+## Contional loops
+
+# i = 3 
+# while(i != 0):
+#     print("meow")
+#     i = i - 1
+
+# i = 0
+# while(i < 3):
+#     print("meow")
+#     i  += 1
+
+# for i in  [0, 1, 2]:
+#     print("meow")
+
+# for _ in range(3):
+#     print("meow")
+
