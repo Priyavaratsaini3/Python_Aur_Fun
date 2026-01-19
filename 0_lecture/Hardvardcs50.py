@@ -153,3 +153,81 @@
 # for _ in range(3):
 #     print("meow")
 
+# print("meow\n"*3 )
+
+# while True:
+#     n = int(input("what's n?"))
+#     if n > 0:
+#         break
+
+# for _ in range(n):
+#     print("meow")
+
+# def main():
+#     number = get_number()
+#     meow(number)
+# def get_number():
+#     while True:
+#         n = int(input("what's n?"))
+#         if n > 0:
+#             break
+#     return n
+    
+
+# def meow(n):
+#     for _ in range(n):
+#         print("meow")
+
+# main()
+
+# students = ["Hermione", "Harry", "Ron"]
+
+# # print(students[0])
+# # print(students[1])
+# # print(students[2])
+
+# # for student in students:
+# #     print(student)
+
+# for i in range(len(students)):
+#     print(i + 1, students[i])
+
+# students = {
+#     "Hermione": "Gryffindor",
+#     "Harry": "Gryffindor",
+#     "Ron": "Gryffindor",
+#     "Draco": "Slytherin"
+# }
+
+# print(students["Hermione"])
+# print(students["Harry"])
+# print(students["Ron"])
+# print(students["Draco"])
+
+# for student in students:
+#     print(student, students[student], sep=", ")
+
+# students = [
+#     {"Name": "Hermione", "House": "Gryffindor", "Patronus": "Otter"},
+#     {"Name": "Harry", "House": "Gryffindor", "Patronus": "Stag"},
+#     {"Name": "Ron", "House": "Gryffindor", "Patronus": "Jack Russell terrier"},
+#     {"Name": "Draco", "House": "Slythein", "Patronus": None}
+# ]
+
+# for student in students:
+#     print(student["Name"], student["House"], student["Patronus"], sep=",")
+
+def main():
+    print_row(4)
+#     print_column(3)
+
+# def print_column(height):
+#     for _ in range(height):
+#         print("#")
+
+def print_row(width):
+    for _ in range(width):
+        print("?",end="")
+    
+main()
+
