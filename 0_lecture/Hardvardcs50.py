@@ -217,17 +217,81 @@
 # for student in students:
 #     print(student["Name"], student["House"], student["Patronus"], sep=",")
 
-def main():
-    print_row(4)
-#     print_column(3)
+# def main():
+#     print_row(4)
+# #     print_column(3)
 
-# def print_column(height):
-#     for _ in range(height):
-#         print("#")
+# # def print_column(height):
+# #     for _ in range(height):
+# #         print("#")
 
-def print_row(width):
-    for _ in range(width):
-        print("?",end="")
+# def print_row(width):
+#     for _ in range(width):
+#         print("?",end="")
     
+# main()
+
+
+# def main():
+#     print_square(3)
+
+# def print_square(size):
+#     ## For each row in square
+#     for i in range(size):
+#         ## For each brick in row
+#         for j in range(size):
+#             ## print Brick
+#             print("#", end="")
+#         print()
+
+# main()
+
+# def main():
+#     print_square(4)
+
+# def print_square(size):
+#     for i in range(size):
+#         print_row(size)
+
+# def print_row(width):
+#     print("#" * width)
+
+# main()
+
+# try:
+#     x = int(input("What's x? "))
+# except ValueError:
+#     print("x is not a integer")
+# else:
+#     print(f"x is {x}")
+
+# def main():
+#     x = get_int()
+#     print(f"x is {x}")
+
+# def get_int():
+#     while True:
+#         try:
+#             x = int(input("What's x?"))
+#         except ValueError:
+#             print("x is not a integer")
+#         else:
+#             break
+#     return x
+
+# main()
+
+def main():
+    x = get_int("What's x?")
+    print(f"x is {x}")
+
+def get_int(prompt):
+    while True:
+        try:
+            return int(input(prompt))
+        except ValueError:
+            pass
+
 main()
+
 
